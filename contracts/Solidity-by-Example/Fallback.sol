@@ -1,6 +1,23 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
+/*
+fallback() or receive()?
+
+    Ether is sent to contract
+                |
+        is msg.data empty?
+            /        \
+          yes        no
+          /            \
+receive() exists?    fallback()
+      /       \
+     yes      no
+     /          \
+ receive()    fallback()
+
+*/
+
 // https://solidity-by-example.org/fallback/
 
 // fallback is a function that does not take any arguments and does not return anything.
