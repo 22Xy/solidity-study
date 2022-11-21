@@ -7,10 +7,8 @@ This repository contains everything you need to know about Solidity programming.
 .
 │   README.md 
 │   .gitignore
-|
 └───contracts
 │   │   VerifySig.sol
-│   │
 │   └───Solidity-by-Example
 │       │   Events.sol
 │       │   Fallback.sol
